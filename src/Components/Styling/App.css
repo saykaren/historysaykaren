@@ -56,7 +56,7 @@ html {
   margin: 12px;
 }
 
-.stretchCard {
+.historyCard {
   border: 1px solid var(--secondary-bg-color);
   min-width: 30vw;
   padding: 12px;
@@ -69,12 +69,12 @@ html {
   justify-content: space-around;
 }
 
-.stretchImage {
+.historyImage {
   width: 300px;
   border-radius: 17px;
 }
 
-.stretchDetail {
+.historyDetail {
   border: 1px solid var(--main-bg-color);
   padding: 12px;
   margin: 12px;
@@ -87,7 +87,7 @@ html {
   flex-direction: column;
 }
 
-.stretchLink {
+.historyLink {
   color:var(--dark-color);
   box-shadow: 2px 4px 3px var(--dark-color-opacity);
 }
