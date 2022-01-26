@@ -13,8 +13,8 @@ const App = () => {
         <h2>sayKaren's History</h2>
       </header>
       <main>
-        {/* {secret === usePassword ? ( */}
-        {true ? (
+        {secret === usePassword ? (
+        // {true ? (
           <HistorySection />
         ) : (
           <div className="cardHolder">
