@@ -19,7 +19,7 @@ export const FamilyHistory = [
         ],
         Father: "Lawrence Dougherty",
         Mother: "Florence Dougherty",   
-        Spouse: 1002,     
+        SpouseId: 1002,     
         Level: 400,
     },
     {
@@ -41,7 +41,7 @@ export const FamilyHistory = [
         ],
         Father: "Joseph Ryan",
         Mother: "Mary A Ryan (born McNerny)",   
-        Spouse: 1001,     
+        SpouseId: 1001,     
         Level: 400,
     },
     {
@@ -63,7 +63,8 @@ export const FamilyHistory = [
         ],
         Father: "Allen Cecil Saylor",
         Mother: "Clara Maud Saylor (born Knight)",   
-        Spouse: 1004,  
+        Spouse: "Gladys Evadene Saylor",  
+        SpouseId: 1004,
         Level: 400,   
     },
     {
@@ -84,9 +85,9 @@ export const FamilyHistory = [
         Siblings: [
             
         ],
-        Father: 1005,
-        Mother: 1006,   
-        Spouse: 1003,     
+        FatherId: 1005,
+        MotherId: 1006,   
+        SpouseId: 1003,     
         Level: 400,
     },
     {
@@ -110,7 +111,7 @@ export const FamilyHistory = [
         ],
         Father: "",
         Mother: "",   
-        Spouse: 1006,     
+        SpouseId: 1006,     
         Level: 500,
     },
     {
@@ -134,7 +135,7 @@ export const FamilyHistory = [
         ],
         Father: "Aid Doctor Smith",
         Mother: "Mary C 'Molly' Smith (born Harris)",   
-        Spouse: 1005,     
+        SpouseId: 1005,     
         Level: 500,
     },
 ];
