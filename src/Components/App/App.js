@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Styling/App.css";
 import secret from "../../Data/secret";
+import HistorySection from "./HistorySection";
 
 const App = () => {
   const [usePassword, setPassword] = useState("");
@@ -13,7 +14,8 @@ const App = () => {
       </header>
       <main>
         {secret === usePassword ? (
-          <h2>You won! Rest of App Here!!</h2>
+        
+          <HistorySection />
         ) : (
           <>
             {" "}
