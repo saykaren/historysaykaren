@@ -10,24 +10,26 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>History</h2>
+        <h2>sayKaren's History</h2>
       </header>
       <main>
-        {secret === usePassword ? (
-        
+        {/* {secret === usePassword ? ( */}
+        {true ? (
           <HistorySection />
         ) : (
-          <>
+          <div className="cardHolder">
             {" "}
             <input
               type="text"
               id="password"
+              placeholder="PASSWORD"
               required
               value={inputValue}
               onChange={(e) => setInputValue(e.currentTarget.value)}
+              className="input"
             />
-            <div onClick={() => setPassword(inputValue)}>Button</div>
-          </>
+            <div className="button" onClick={() => setPassword(inputValue)}>Submit</div>
+          </div>
         )}
       </main>
     </div>

@@ -13,6 +13,7 @@ const HistorySection = () => {
         onChange={(e) => setSearchTerm(e.currentTarget.value)}
         placeholder="Search History by First Name"
         id="inputHistorySearch"
+        className="input"
       />
       <section className="historyCard">
         <h2>Grandparents</h2>
@@ -41,25 +42,24 @@ const HistorySection = () => {
                 {person.BirthState && (
                   <div>Birth State: {person.BirthState}</div>
                 )}
-                {/* {person.Spouse && (
+                {person.Spouse && (
                   <div>
                     Spouse:{" "}
                     {familyData
-                      .filter(
-                        (person) =>
-                          (person.Spouse === person.Spouse)
-                      )
+                      .filter((person) => person.Spouse === person.Spouse)
                       .map((details, detailsIndex) => (
                         <div key={detailsIndex}>
                           {details.firstName} {details.lastName}{" "}
                         </div>
                       ))}{" "}
                   </div>
-                )} */}
-                {person.marrageDate && (<div>Marriage Date: {person.marrageDate}</div>)}
+                )}
+                {person.marrageDate && (
+                  <div>Marriage Date: {person.marrageDate}</div>
+                )}
                 {person.nickname && <div> Nickname: {person.nickname}</div>}
-                {person.Father && <div>Father: {person.Father}</div>}
-                {person.Mother && <div>Mother: {person.Mother}</div>}
+                {person.FatherId && <div>Father: {person.Father}</div>}
+                {person.MotherId && <div>Mother: {person.Mother}</div>}
               </div>
             ))}
       </section>

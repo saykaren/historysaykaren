@@ -1,8 +1,8 @@
 :root {
-  --main-bg-color: #238182;
-  --secondary-bg-color: #05e4be;
+  --main-bg-color: #1497E3;
+  --secondary-bg-color: #535354;
   --third-color: #284b52;
-  --light-color: #2bb789;
+  --light-color: #7cfc24;
   --dark-color: #141210;
   --dark-color-opacity: #1412104d;
 }
@@ -31,11 +31,20 @@ html {
   text-shadow: 2px 4px 3px var(--dark-color-opacity);
 }
 
+.button {
+  background-color: var(--light-color);
+  width:min-content;
+  padding: 6px 8px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 3px var(--dark-color-opacity);
+}
+
 .cardHolder {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 .exerciseCard {
   border: 1px solid var(--secondary-bg-color);
   min-width: 30vw;
@@ -90,4 +99,16 @@ html {
 .historyLink {
   color:var(--dark-color);
   box-shadow: 2px 4px 3px var(--dark-color-opacity);
+}
+
+.input {
+  width: fit-content;
+  padding: 6px 8px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 3px var(--dark-color-opacity);
+}
+
+main {
+  padding: 12px;
+  margin: 12px;
 }
