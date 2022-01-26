@@ -58,8 +58,8 @@ const HistorySection = () => {
                   <div>Marriage Date: {person.marrageDate}</div>
                 )}
                 {person.nickname && <div> Nickname: {person.nickname}</div>}
-                {person.FatherId && <div>Father: {person.Father}</div>}
-                {person.MotherId && <div>Mother: {person.Mother}</div>}
+                {person.Father && <div>Father: {person.Father}</div>}
+                {person.Mother && <div>Mother: {person.Mother}</div>}
               </div>
             ))}
       </section>

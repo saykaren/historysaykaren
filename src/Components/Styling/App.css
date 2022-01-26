@@ -32,7 +32,7 @@ html {
 }
 
 .button {
-  background-color: var(--light-color);
+  background-color: var(--secondary-bg-color);
   width:min-content;
   padding: 6px 8px;
   border-radius: 5px;
