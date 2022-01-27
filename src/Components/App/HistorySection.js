@@ -29,8 +29,11 @@ const HistorySection = () => {
                 <h3>
                   {person.firstName} {person.middleName} {person.lastName}
                 </h3>
-                {person.dateOfBirthYear && person.dateofDeathYear && <div>Age: {person.dateofDeathYear-person.dateOfBirthYear}
-                  </div>}
+                {person.dateOfBirthYear && person.dateofDeathYear && (
+                  <div>
+                    Age: {person.dateofDeathYear - person.dateOfBirthYear}
+                  </div>
+                )}
                 <div>sayKaren id: {person.id}</div>
                 {person.dateOfBirthYear && person.dateofBirthDateMonth && (
                   <div>
@@ -38,7 +41,12 @@ const HistorySection = () => {
                     {person.dateOfBirthYear}
                   </div>
                 )}
-                {person.dateofDeathYear && (<div>Death: {person.dateofDeathDateMonth}/{person.dateofDeathYear}</div>)}
+                {person.dateofDeathYear && (
+                  <div>
+                    Death: {person.dateofDeathDateMonth}/
+                    {person.dateofDeathYear}
+                  </div>
+                )}
                 {person.BirthCountry && (
                   <div>Birth Country: {person.BirthCountry}</div>
                 )}
@@ -63,29 +71,45 @@ const HistorySection = () => {
                 {person.nickname && <div> Nickname: {person.nickname}</div>}
                 {person.SpouseId && (
                   <>
-                    Spouse:  {familyData.filter((spouseid)=>spouseid.id === person.SpouseId).map((personObject, personObIndex)=>(
-                      <div key={personObIndex}>Spouse: {personObject.firstName}  {personObject.lastName} </div>
-                    ))}
-                    </>
+                    {familyData
+                      .filter((spouseid) => spouseid.id === person.SpouseId)
+                      .map((personObject, personObIndex) => (
+                        <div key={personObIndex}>
+                          Spouse: {personObject.firstName}{" "}
+                          {personObject.lastName}{" "}
+                        </div>
+                      ))}
+                  </>
                 )}
                 {person.Father && <div>Father: {person.Father}</div>}
                 {person.Mother && <div>Mother: {person.Mother}</div>}
                 {person.FatherId && (
                   <>
-                    Father {familyData.filter((fatherId)=>fatherId.id === person.FatherId).map((personObject, personObIndex)=>(
-                      <div key={personObIndex}>Father: {personObject.firstName} {personObject.lastName}</div>
-                    ))}
-                    </>
-                )}
-                
-                {person.MotherId && (
-                  <>
-                    Mother:  {familyData.filter((motherId)=>motherId.id === person.MotherId).map((personObject, personObIndex)=>(
-                      <div key={personObIndex}>Mother: {personObject.firstName} {personObject.lastName} </div>
-                    ))}
-                    </>
+                    Father{" "}
+                    {familyData
+                      .filter((fatherId) => fatherId.id === person.FatherId)
+                      .map((personObject, personObIndex) => (
+                        <div key={personObIndex}>
+                          Father: {personObject.firstName}{" "}
+                          {personObject.lastName}
+                        </div>
+                      ))}
+                  </>
                 )}
 
+                {person.MotherId && (
+                  <>
+                    Mother:{" "}
+                    {familyData
+                      .filter((motherId) => motherId.id === person.MotherId)
+                      .map((personObject, personObIndex) => (
+                        <div key={personObIndex}>
+                          Mother: {personObject.firstName}{" "}
+                          {personObject.lastName}{" "}
+                        </div>
+                      ))}
+                  </>
+                )}
               </div>
             ))}
       </section>
