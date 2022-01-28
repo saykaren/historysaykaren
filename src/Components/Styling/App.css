@@ -85,14 +85,14 @@ html {
 
 .historyDetail {
   border: 1px solid var(--main-bg-color);
-  padding: 12px;
+  padding: 12px 16px;
   margin: 12px;
   background-color: var(--main-bg-color);
   border-radius: 17px;
   box-shadow: 2px 4px 3px var(--dark-color-opacity);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  text-align: left;
   flex-direction: column;
 }
 

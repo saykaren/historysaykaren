@@ -14,7 +14,7 @@ const App = () => {
       </header>
       <main>
         {secret === usePassword ? (
-        // {true ? (
+          // {true ? (
           <HistorySection />
         ) : (
           <div className="cardHolder">
@@ -28,7 +28,12 @@ const App = () => {
               onChange={(e) => setInputValue(e.currentTarget.value)}
               className="input"
             />
-            <div className="button" onClick={() => setPassword(inputValue)}>Submit</div>
+            <div
+              className="button"
+              onClick={() => setPassword(inputValue.trim())}
+            >
+              Submit
+            </div>
           </div>
         )}
       </main>

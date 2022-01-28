@@ -16,7 +16,7 @@ const HistorySection = () => {
         className="input"
       />
       <section className="historyCard">
-        <h2>Grandparents</h2>
+        {/* <h2>Grandparents</h2> */}
         {familyData &&
           familyData
             .filter((searching) =>
@@ -110,6 +110,16 @@ const HistorySection = () => {
                       ))}
                   </>
                 )}
+                <div>
+                  {person.Siblings && person.Siblings.length >= 1 && (
+                    <>Siblings:</>
+                  )}
+                  {person.Siblings &&
+                    person.Siblings.length >= 1 &&
+                    person.Siblings.map((siblingCount, siblingIndex) => (
+                      <div key={siblingIndex}>{siblingCount}</div>
+                    ))}
+                </div>
               </div>
             ))}
       </section>
