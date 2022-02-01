@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/historysaykaren/static/css/main.f746b4d2.css",
-    "main.js": "/historysaykaren/static/js/main.cc5247ec.js",
+    "main.js": "/historysaykaren/static/js/main.299e1270.js",
     "static/js/787.c08b06a6.chunk.js": "/historysaykaren/static/js/787.c08b06a6.chunk.js",
     "index.html": "/historysaykaren/index.html",
     "main.f746b4d2.css.map": "/historysaykaren/static/css/main.f746b4d2.css.map",
-    "main.cc5247ec.js.map": "/historysaykaren/static/js/main.cc5247ec.js.map",
+    "main.299e1270.js.map": "/historysaykaren/static/js/main.299e1270.js.map",
     "787.c08b06a6.chunk.js.map": "/historysaykaren/static/js/787.c08b06a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f746b4d2.css",
-    "static/js/main.cc5247ec.js"
+    "static/js/main.299e1270.js"
   ]
 }
