@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../Styling/App.css";
 import secret from "../../Data/secret";
 import HistorySection from "./HistorySection";
+import Footer from "./Footer";
 
 const App = () => {
   const [usePassword, setPassword] = useState("");
@@ -37,6 +38,7 @@ const App = () => {
           </div>
         )}
       </main>
+      <Footer/>
     </div>
   );
 };
