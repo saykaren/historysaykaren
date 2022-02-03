@@ -1,15 +1,22 @@
 import React, { useState } from "react";
 import { FamilyHistory } from "../../Data/FamilyHistory";
 import HistoryCard from "./HistoryCard.js";
+import Modal from "./Modal";
 
 const HistorySection = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [familyData, setFamilyData] = useState(FamilyHistory);
-  // const [familyGenerationLevel, setFamilyGenerationLevel] = useState(400);
+  const [modal, setModal] = useState(true);
+  const [modalData, setModalData] = useState(1061);
   const levelArray = [400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700];
+  const updateModal = (newId)=>{
+    setModalData(newId);
+    setModal(true);
+}
 
   return (
     <section>
+      {modal && (<Modal modalData={modalData} setModal={setModal} modal={modal} familyData={familyData} updateModal={updateModal}/>)}
       <input
         type="text"
         value={searchTerm}
@@ -52,6 +59,9 @@ const HistorySection = () => {
             familyData={familyData}
             generationLevel={level}
             searchTerm={searchTerm}
+            setModalData={setModalData}
+            setModal={setModal}
+            updateModal={updateModal}
           />
         ))}
     </section>

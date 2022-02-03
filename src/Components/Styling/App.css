@@ -1,4 +1,5 @@
 @import "./Footer.css";
+@import "./Modal.css";
 
 :root {
   --main-bg-color: #1497E3;
@@ -7,6 +8,7 @@
   --light-color: #7cfc24;
   --dark-color: #141210;
   --dark-color-opacity: #1412104d;
+  --shadow: rgba(68, 68, 68, 0.6);
 }
 
 .App {
@@ -45,6 +47,12 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.clickable {
+  text-decoration: wavy;
+  text-decoration: underline;
+  text-decoration-color: var(--main-bg-color);
 }
 
 .exerciseCard {

@@ -4,7 +4,6 @@ import code from "../../Assets/code.png";
 
 const Footer = () => (
   <footer id="footer" className="footerDetails">
-    Website created by:
     <a href="http://saykaren.com" target="_blank" rel="noopener noreferrer">
       <img
         src={sayKarenLogo}
@@ -13,6 +12,7 @@ const Footer = () => (
         alt="sayKaren.com"
       />
     </a>
+    Treasure
     <a
       href="https://github.com/saykaren/BreakingBad"
       target="_blank"

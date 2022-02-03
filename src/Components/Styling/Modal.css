@@ -1,0 +1,54 @@
+.modal {
+  position: fixed;
+  border: 3px solid white;
+  background-color: var(--secondary-bg-color);
+  opacity: 0.95;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: fit-content;
+  box-shadow: 5px 5px 5px var(--shadow);
+}
+
+
+#modal_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.modalPicture {
+  width: 320px;
+}
+
+.modal_header {
+  background-color: var(--main-bg-color);
+  min-height: fit-content;
+  padding: 10px;
+  width: 300px;
+}
+
+.modal_details {
+  padding: 10px;
+}
+
+.modal_title {
+  font-weight: bold;
+}
+
+.modal_header_title {
+  font-size: 1.5em;
+}
+
+.modal_quote {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.modal_list {
+  padding: 4px;
+}
