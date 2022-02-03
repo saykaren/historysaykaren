@@ -22,6 +22,7 @@ export const FamilyHistory = [
     // Mother: "Florence Dougherty",
     MotherId: 1014,
     SpouseId: 1002,
+    bloodline: "D",
     Level: 400,
   },
   {
@@ -42,6 +43,7 @@ export const FamilyHistory = [
     Father: "Joseph Ryan",
     Mother: "Mary A Ryan (born McNerny)",
     SpouseId: 1001,
+    bloodline: "D",
     Level: 400,
   },
   {
@@ -57,12 +59,13 @@ export const FamilyHistory = [
     BirthState: "",
     BirthCity: "",
     Siblings: [],
-    // Father: "?",
+    FatherId: 1029,
     // Mother: "Clar Saylor (born Knight)",
     MotherId: 1028,
     // Spouse: "Gladys Evadene Saylor",
     SpouseId: 1004,
-    Level: 400,
+    bloodline: "S",
+Level: 400,
   },
   {
     id: 1004,
@@ -83,7 +86,8 @@ export const FamilyHistory = [
     FatherId: 1005,
     MotherId: 1006,
     SpouseId: 1003,
-    Level: 400,
+    bloodline: "S",
+Level: 400,
   },
   {
     id: 1005,
@@ -105,7 +109,8 @@ export const FamilyHistory = [
     Father: "",
     Mother: "",
     SpouseId: 1006,
-    Level: 500,
+    // bloodline:
+Level: 500,
   },
   {
     id: 1006,
@@ -128,7 +133,8 @@ export const FamilyHistory = [
     MotherId: 1008,
     Mother: "Mary C 'Molly' Smith (born Harris)",
     SpouseId: 1005,
-    Level: 500,
+    // bloodline:
+Level: 500,
   },
 
   {
@@ -157,7 +163,8 @@ export const FamilyHistory = [
     Father: "Doctor Robert Smith",
     Mother: "Mary Henrietta Smith",
     SpouseId: 1008,
-    Level: 600,
+    // bloodline:
+Level: 600,
   },
   {
     id: 1008,
@@ -177,7 +184,8 @@ export const FamilyHistory = [
     Father: "  ",
     Mother: "",
     SpouseId: 1007,
-    Level: 600,
+    // bloodline:
+Level: 600,
   },
   {
     id: 1009,
@@ -201,7 +209,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     Mother: "Mary C Smith (born Pearson)",
     SpouseId: 1010,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1010,
@@ -225,7 +234,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     // Mother: "",
     SpouseId: 1009,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1011,
@@ -249,7 +259,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     Mother: "Sara Rebecca Smith (born Londers) ",
     SpouseId: 1012,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1012,
@@ -273,7 +284,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     // Mother: "",
     SpouseId: 1011,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1013,
@@ -307,7 +319,8 @@ export const FamilyHistory = [
     MotherId: 1019,
     // Mother: "Honora L. Doherty (born Lovett) ",
     SpouseId: 1014,
-    Level: 500,
+    // bloodline:
+Level: 500,
   },
   {
     id: 1014,
@@ -333,7 +346,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     // Mother: "",
     SpouseId: 1013,
-    Level: 500,
+    // bloodline:
+Level: 500,
   },
   {
     id: 1015,
@@ -369,7 +383,8 @@ export const FamilyHistory = [
     MotherId: 1016,
     Mother: "Margaret Dougherty (born McDonough)",
     SpouseId: 1016,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1016,
@@ -393,7 +408,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     // Mother: "",
     SpouseId: 1015,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1017,
@@ -417,7 +433,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     // Mother: "",
     SpouseId: 1018,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1018,
@@ -441,7 +458,8 @@ export const FamilyHistory = [
     // MotherId:  ,
     // Mother: "",
     SpouseId: 1017,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1019,
@@ -484,7 +502,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     Mother: "Mary Lovett (born O'Regan)",
     SpouseId: 1015,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1020,
@@ -517,7 +536,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1021,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1021,
@@ -550,7 +570,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1020,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1022,
@@ -578,7 +599,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     Mother: "Lois Knight (born Whitham Or Whithem) - 1797 - 1832",
     SpouseId: 1023,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1023,
@@ -623,7 +645,8 @@ export const FamilyHistory = [
     Mother:
       "Catherine Babb, Sackman/Lechman/Seckman (born Lockman) - 1811 - 1871",
     SpouseId: 1022,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1024,
@@ -654,7 +677,8 @@ export const FamilyHistory = [
     MotherId: 1023,
     //   Mother: "",
     SpouseId: 1025,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1025,
@@ -680,7 +704,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     Mother: "Druzella Thomas",
     SpouseId: 1024,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
 
   {
@@ -712,7 +737,8 @@ export const FamilyHistory = [
     MotherId: 1025,
     //   Mother: "",
     SpouseId: 1027,
-    Level: 600,
+    // bloodline:
+Level: 600,
   },
   {
     id: 1027,
@@ -746,7 +772,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1026,
-    Level: 600,
+    // bloodline:
+Level: 600,
   },
   {
     id: 1028,
@@ -781,7 +808,8 @@ export const FamilyHistory = [
     MotherId: 1027,
     //   Mother: "",
     SpouseId: 1029,
-    Level: 500,
+    // bloodline:
+Level: 500,
   },
   {
     id: 1029,
@@ -817,7 +845,8 @@ export const FamilyHistory = [
     MotherId: 1031,
     //   Mother: "",
     SpouseId: 1028,
-    Level: 500,
+    // bloodline:
+Level: 500,
   },
   {
     id: 1030,
@@ -844,7 +873,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1031,
-    Level: 600,
+    // bloodline:
+Level: 600,
   },
   {
     id: 1031,
@@ -876,7 +906,8 @@ export const FamilyHistory = [
     MotherId: 1033,
     //   Mother: "",
     SpouseId: 1030,
-    Level: 600,
+    // bloodline:
+Level: 600,
   },
   {
     id: 1032,
@@ -902,7 +933,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1033,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1033,
@@ -948,7 +980,8 @@ export const FamilyHistory = [
     MotherId: 1035,
     Mother: "Mary Jane Chamberlain (born Taylor)",
     SpouseId: 1032,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1034,
@@ -1000,7 +1033,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     Mother: "Jane Chamberlain (born Fields)",
     SpouseId: 1035,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1035,
@@ -1041,7 +1075,8 @@ export const FamilyHistory = [
     MotherId: 1037,
     Mother: "Jane Taylor",
     SpouseId: 1034,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1036,
@@ -1069,7 +1104,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1037,
-    Level: 900,
+    // bloodline:
+Level: 900,
   },
   {
     id: 1037,
@@ -1097,7 +1133,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1036,
-    Level: 900,
+    // bloodline:
+Level: 900,
   },
   {
     id: 1038,
@@ -1146,7 +1183,8 @@ export const FamilyHistory = [
     MotherId: 1041,
     //   Mother: "",
     SpouseId: 1039,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1039,
@@ -1189,7 +1227,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1040,
-    Level: 700,
+    // bloodline:
+Level: 700,
   },
   {
     id: 1040,
@@ -1223,7 +1262,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     Mother: "",
     SpouseId: 1041,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1041,
@@ -1269,7 +1309,8 @@ export const FamilyHistory = [
     MotherId: 1043,
     Mother: "Hannah Holloway (born Ball) 1715 - 1779 ",
     SpouseId: 1040,
-    Level: 800,
+    // bloodline:
+Level: 800,
   },
   {
     id: 1042,
@@ -1309,7 +1350,8 @@ export const FamilyHistory = [
     MotherId: 1045,
     // Mother: "Hannah Holloway (born Spiers)",
     SpouseId: 1043,
-    Level: 900,
+    // bloodline:
+Level: 900,
   },
   {
     id: 1043,
@@ -1349,7 +1391,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1042,
-    Level: 900,
+    // bloodline:
+Level: 900,
   },
   {
     id: 1044,
@@ -1405,7 +1448,8 @@ export const FamilyHistory = [
     MotherId: 1047,
     Mother: "Elizabeth Frances Holloway (born Mathews)       1671 - 1736",
     SpouseId: 1045,
-    Level: 1000,
+    // bloodline:
+Level: 1000,
   },
   {
     id: 1045,
@@ -1452,7 +1496,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     Mother: "",
     SpouseId: 1044,
-    Level: 1000,
+    // bloodline:
+Level: 1000,
   },
   {
     id: 1046,
@@ -1494,7 +1539,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     Mother: "Ann Holloway 1625 - 1664",
     SpouseId: 1047,
-    Level: 1100,
+    // bloodline:
+Level: 1100,
   },
   {
     id: 1047,
@@ -1529,12 +1575,13 @@ export const FamilyHistory = [
       "George Holloway ? - 1778",
     ],
     childrenId: [1044],
-    Father: "John Mathews 1650 - 1702",
+    // Father: "John Mathews 1650 - 1702",
     FatherId: 1048,
     MotherId: 1049,
-    Mother: "Elizabeth Mathews (born Tavenor) 1650 - 1710",
+    // Mother: "Elizabeth Mathews (born Tavenor) 1650 - 1710",
     SpouseId: 1046,
-    Level: 1100,
+    // bloodline:
+Level: 1100,
   },
   {
     id: 1048,
@@ -1565,12 +1612,13 @@ export const FamilyHistory = [
       "Martha Mathews 1719 - 1757",
     ],
     childrenId: [1047],
-    Father: " Samuel Mathews 1630 - 1660",
+    // Father: " Samuel Mathews 1630 - 1660",
     FatherId: 1057,
     MotherId: 1058,
-    Mother: "Mary Jane Mathews (born Hinton)       1628 - 1660",
+    // Mother: "Mary Jane Mathews (born Hinton)       1628 - 1660",
     SpouseId: 1049,
-    Level: 1200,
+    // bloodline:
+Level: 1200,
   },
   {
     id: 1049,
@@ -1602,7 +1650,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1048,
-    Level: 1200,
+    // bloodline:
+Level: 1200,
   },
   {
     id: 1050,
@@ -1628,7 +1677,8 @@ export const FamilyHistory = [
     MotherId: 1052,
     Mother: "",
     //   SpouseId: ,
-    Level: 1300,
+    // bloodline:
+Level: 1300,
   },
   {
     id: 1051,
@@ -1655,7 +1705,8 @@ export const FamilyHistory = [
     MotherId: 1054,
     // Mother:      "Elizabeth Taverner (born Lusbye)       1578 - 1619 ",
     SpouseId: 1052,
-    Level: 1400,
+    // bloodline:
+Level: 1400,
   },
   {
     id: 1052,
@@ -1682,7 +1733,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1051,
-    Level: 1400,
+    // bloodline:
+Level: 1400,
   },
   {
     id: 1053,
@@ -1712,7 +1764,8 @@ export const FamilyHistory = [
     MotherId: 1056,
     //   Mother: "Eleanor Taverner (born Heyton)       1560 - ?",
     SpouseId: 1054,
-    Level: 1500,
+    // bloodline:
+Level: 1500,
   },
   {
     id: 1054,
@@ -1739,7 +1792,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1053,
-    Level: 1500,
+    // bloodline:
+Level: 1500,
   },
   {
     id: 1055,
@@ -1765,7 +1819,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1056,
-    Level: 1600,
+    // bloodline:
+Level: 1600,
   },
   {
     id: 1056,
@@ -1791,7 +1846,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1055,
-    Level: 1600,
+    // bloodline:
+Level: 1600,
   },
   {
     id: 1057,
@@ -1843,7 +1899,8 @@ export const FamilyHistory = [
     MotherId: 1060,
     //   Mother: "Frances Mathews (born Greville) 1586 - 1635 ",
     SpouseId: 1058,
-    Level: 1300,
+    // bloodline:
+Level: 1300,
   },
   {
     id: 1058,
@@ -1874,7 +1931,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1057,
-    Level: 1300,
+    // bloodline:
+Level: 1300,
   },
   {
     id: 1059,
@@ -1930,7 +1988,8 @@ export const FamilyHistory = [
     MotherId: 1062,
     //   Mother: "Frances Mathews (born Barlow) 1550 - 1629 ",
     SpouseId: 1060,
-    Level: 1400,
+    // bloodline:
+Level: 1400,
   },
   {
     id: 1060,
@@ -1973,7 +2032,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1059,
-    Level: 1400,
+    // bloodline:
+Level: 1400,
   },
   {
     id: 1061,
@@ -2008,7 +2068,8 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1062,
-    Level: 1500,
+    // bloodline:
+Level: 1500,
   },
   {
     id: 1062,
@@ -2043,6 +2104,7 @@ export const FamilyHistory = [
     //   MotherId:  ,
     //   Mother: "",
     SpouseId: 1061,
+    // bloodline:
     Level: 1500,
   },
   // {
@@ -2071,7 +2133,8 @@ export const FamilyHistory = [
   //     MotherId:  ,
   //     Mother: "",
   //     SpouseId: ,
-  //     Level: ,
+  //     // bloodline:
+// Level: ,
   // },
   // {
   //     id: ,
@@ -2099,7 +2162,8 @@ export const FamilyHistory = [
   //     MotherId:  ,
   //     Mother: "",
   //     SpouseId: ,
-  //     Level: ,
+  //     bloodline:
+    //   Level: ,
   // },
   // {
   //     id: ,
@@ -2127,7 +2191,8 @@ export const FamilyHistory = [
   //     MotherId:  ,
   //     Mother: "",
   //     SpouseId: ,
-  //     Level: ,
+  //     bloodline:
+    //   Level: ,
   // },
   // {
   //     id: ,
@@ -2155,7 +2220,8 @@ export const FamilyHistory = [
   //     MotherId:  ,
   //     Mother: "",
   //     SpouseId: ,
-  //     Level: ,
+  //     // bloodline:
+        //Level: ,
   // },
 ];
 
