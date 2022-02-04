@@ -120,12 +120,14 @@ const HistoryCardDetail = ({personIndex, person, familyData, updateModal }) => {
           )}
           {person.Siblings && person.Siblings.length >= 1 && (
             <div className="historyDetailSection">
-              <>Siblings:</>
+              <details><summary>Siblings:</summary>
+              
               {person.Siblings &&
                 person.Siblings.length >= 1 &&
                 person.Siblings.map((siblingCount, siblingIndex) => (
                   <div key={siblingIndex}>{siblingCount}</div>
                 ))}
+                </details>
             </div>
           )}
           {person.Notes && (person.Notes[0].length > 0) && (
