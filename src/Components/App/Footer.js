@@ -14,7 +14,7 @@ const Footer = () => (
     </a>
     Treasure
     <a
-      href="https://github.com/saykaren/BreakingBad"
+      href="https://github.com/saykaren/historysaykaren/issues"
       target="_blank"
       rel="noopener noreferrer"
     >
