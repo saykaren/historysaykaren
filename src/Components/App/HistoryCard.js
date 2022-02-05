@@ -16,7 +16,9 @@ const HistoryCard = ({
           .filter(
             (searching) =>
               searching.firstName.toLocaleLowerCase().includes(searchTerm) ||
-              searching.lastName.toLocaleLowerCase().includes(searchTerm)
+              searching.lastName.toLocaleLowerCase().includes(searchTerm) ||
+              searching.id == searchTerm ||
+              (searching.bloodline && searching.bloodline.toLocaleLowerCase().includes(searchTerm))
           )
           .filter(
             (searchGenerationLevel) =>
@@ -28,6 +30,7 @@ const HistoryCard = ({
               person={person}
               familyData={familyData}
               updateModal={updateModal}
+              key={personIndex}
             />
           ))}
     </section>

@@ -24,7 +24,7 @@ const HistoryCardDetail = ({personIndex, person, familyData, updateModal }) => {
             -
             {person.dateofDeathDateMonth &&
               person.dateofDeathDateMonth.length > 3 && (
-                <span>{personIndex.dateofDeathDateMonth}/</span>
+                <span>{person.dateofDeathDateMonth}{personIndex.dateofDeathDateMonth}/</span>
               )}
             {person.dateofDeathYear ? (
               <span>{person.dateofDeathYear}</span>
@@ -71,7 +71,7 @@ const HistoryCardDetail = ({personIndex, person, familyData, updateModal }) => {
           )}
           {person.childrenId && person.childrenId.length > 0 && (
             <div className="historyDetailSection">
-              Bloodline Child:
+              Bloodline Child:{" "}
               {familyData
                 .filter(
                   (personFilter) =>
