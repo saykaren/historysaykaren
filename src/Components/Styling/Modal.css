@@ -1,11 +1,13 @@
 .modal {
-  position: relative;
+  position: fixed;
+  float: right;
+  overflow: auto;
   border: 3px solid white;
   background-color: var(--secondary-bg-color);
   opacity: 0.95;
   z-index: 6;
-  height: fit-content;
   box-shadow: 5px 5px 5px var(--shadow);
+  overflow-y: auto;
 }
 
 
