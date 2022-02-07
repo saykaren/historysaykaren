@@ -1,13 +1,25 @@
 import React from "react";
+import cancel from "../../Assets/cancel.png";
 
 const HistoryCardDetail = ({
   personIndex,
   person,
   familyData,
   updateModal,
+  cardType,
+  setModal,
+  modal,
 }) => {
   return (
     <div key={personIndex} className="historyDetail">
+      <section>    {cardType === "modalCard" && <img
+              src={cancel}
+              alt="minimize"
+              onClick={() => setModal(!modal)}
+              className="smallIcon floatRight"
+              id="modal_close"
+            />
+        }</section>
       <section>
         <h3>
           {person.firstName}{" "}
@@ -15,6 +27,8 @@ const HistoryCardDetail = ({
           {person.middleName} {person.lastName}{" "}
           {person.maidenName && <sub>(Born {person.maidenName})</sub>}
         </h3>
+    
+
         <sub>
           sayKaren id: {person.id} &#8226; Level: {person.Level}
         </sub>

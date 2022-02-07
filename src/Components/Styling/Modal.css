@@ -1,18 +1,25 @@
+.floatRight {
+  float: right;
+}
+
 .modal {
   position: fixed;
-  float: right;
-  overflow: auto;
-  border: 3px solid white;
-  background-color: var(--secondary-bg-color);
-  opacity: 0.95;
-  z-index: 6;
-  box-shadow: 5px 5px 5px var(--shadow);
-  overflow-y: auto;
+  z-index: 1020;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
+
 #modal_close {
-  position: absolute;
+  /* position: absolute; */
+  /* position: fixed; */
+  z-index: 3;
   top: 0;
   right: 0;
   padding: 10px;

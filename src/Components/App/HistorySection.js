@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { FamilyHistory } from "../../Data/FamilyHistory";
 import HistoryCard from "./HistoryCard.js";
 import Modal from "./Modal";
@@ -8,15 +8,31 @@ const HistorySection = () => {
   const [familyData, setFamilyData] = useState(FamilyHistory);
   const [modal, setModal] = useState(false);
   const [modalData, setModalData] = useState(1061);
-  const levelArray = [400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000];
-  const updateModal = (newId)=>{
+  const levelArray = [
+    400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600,
+    1700, 1800, 1900, 2000,
+  ];
+
+  const myRef = useRef(null);
+
+  const updateModal = (newId) => {
     setModalData(newId);
+    // modal ? window.scrollTo(0,0) :  myRef.current.scrollIntoView();
     setModal(true);
-}
+  };
 
   return (
     <section>
-      {modal && (<Modal modalData={modalData} setModal={setModal} modal={modal} familyData={familyData} updateModal={updateModal}/>)}
+      {modal && (
+        <Modal
+          modalData={modalData}
+          setModal={setModal}
+          modal={modal}
+          familyData={familyData}
+          updateModal={updateModal}
+          myRef={myRef}
+        />
+      )}
       <input
         type="text"
         value={searchTerm}
