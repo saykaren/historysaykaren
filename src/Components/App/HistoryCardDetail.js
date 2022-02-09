@@ -151,10 +151,7 @@ const HistoryCardDetail = ({
           <div className="historyDetailSection">
             <details>
               <summary>Siblings:</summary>
-
-              {person.Siblings &&
-                person.Siblings.length >= 1 &&
-                person.Siblings.map((siblingCount, siblingIndex) => (
+              {person.Siblings.map((siblingCount, siblingIndex) => (
                   <div key={siblingIndex}>{siblingCount}</div>
                 ))}
             </details>
@@ -173,7 +170,7 @@ const HistoryCardDetail = ({
             </details>
           </div>
         )}
-        {person.Notes && person.Notes[0].length > 0 && (
+        {person.Notes && person.Notes.length > 0 && (
           <div className="historyDetailSection">
             <details>
               <summary>Notes</summary>
