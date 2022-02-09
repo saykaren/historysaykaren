@@ -12,14 +12,18 @@ const HistoryCardDetail = ({
 }) => {
   return (
     <div key={personIndex} className="historyDetail">
-      <section>    {cardType === "modalCard" && <img
-              src={cancel}
-              alt="minimize"
-              onClick={() => setModal(!modal)}
-              className="smallIcon floatRight"
-              id="modal_close"
-            />
-        }</section>
+      <section>
+        {" "}
+        {cardType === "modalCard" && (
+          <img
+            src={cancel}
+            alt="minimize"
+            onClick={() => setModal(!modal)}
+            className="smallIcon floatRight"
+            id="modal_close"
+          />
+        )}
+      </section>
       <section>
         <h3>
           {person.firstName}{" "}
@@ -27,7 +31,6 @@ const HistoryCardDetail = ({
           {person.middleName} {person.lastName}{" "}
           {person.maidenName && <sub>(Born {person.maidenName})</sub>}
         </h3>
-    
 
         <sub>
           sayKaren id: {person.id} &#8226; Level: {person.Level}
@@ -151,12 +154,9 @@ const HistoryCardDetail = ({
           <div className="historyDetailSection">
             <details>
               <summary>Siblings:</summary>
-
-              {person.Siblings &&
-                person.Siblings.length >= 1 &&
-                person.Siblings.map((siblingCount, siblingIndex) => (
-                  <div key={siblingIndex}>{siblingCount}</div>
-                ))}
+              {person.Siblings.map((siblingCount, siblingIndex) => (
+                <div key={siblingIndex}>{siblingCount}</div>
+              ))}
             </details>
           </div>
         )}
@@ -179,6 +179,24 @@ const HistoryCardDetail = ({
               <summary>Notes</summary>
               {person.Notes.map((noteItem, noteKey) => (
                 <div key={noteKey}>{noteItem}</div>
+              ))}
+            </details>
+          </div>
+        )}
+        {person.links && person.links.length >= 1 && (
+          <div className="historyDetailSection">
+            <details>
+              <summary>Additional Info:</summary>
+              {person.links.map((linkCount, linkIndex) => (
+                <a
+                  href={linkCount}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={linkIndex}
+                >
+                  {" "}
+                  {linkCount}{" "}
+                </a>
               ))}
             </details>
           </div>
