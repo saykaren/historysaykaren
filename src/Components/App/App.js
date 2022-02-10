@@ -37,6 +37,9 @@ const App = () => {
             </div>
           </div>
         )}
+        <a href="https://www.irishgenealogy.ie/en/" target="_blank" rel="noopener noreferrer" className="historyLink"> Irish Genealogy</a><br/>
+        <a href="https://www.anythinklibraries.org/research?access=All&category=53&audience=All&media=All&language=All&undefined=Apply" className="historyLink" target="_blank" rel="noopener noreferrer"> Anythink Library MyHeritage Access</a><br/>
+        <a href="https://www.statueofliberty.org/statue-of-liberty/" target="_blank" rel="noopener noreferrer" className="historyLink"> Statue of Liberty Ellis Island Foundation Inc.</a> 
       </main>
       <Footer/>
     </div>
