@@ -4112,6 +4112,129 @@ export const FamilyHistory = [
         Level: 700,
       },
 
+  {
+      id: 1108,
+      firstName: "David",
+      lastName: "Garcia",
+      middleName: "Fred",
+      maidenName: "",
+      dateOfBirthYear: 1930,
+      dateofBirthDateMonth: "10/06",
+      dateofDeathDateMonth: "",
+      // dateofDeathYear:
+      marriageDate: "",
+      Notes: [""],
+      BirthCountry: "",
+      BirthState: "",
+      BirthCity: "",
+      nickname: "",
+      Siblings: [
+        "Robert L Garcia",
+        "Molly Garcia"
+      ],
+      children: [
+        "Damian C Garcia",
+        "David A Garcia"
+      ],
+      childrenId: [],
+      // Father: "  ",
+      FatherId: 1110,
+      MotherId:  1111,
+      // Mother: "",
+      SpouseId: 1109,
+      bloodline: "G",
+      Level: 400,
+  },
+{
+      id: 1109,
+      firstName: "Ernestine",
+      lastName: "Garcia",
+      middleName: "A",
+      maidenName: "Banuelos",
+      dateOfBirthYear: 1933,
+      dateofBirthDateMonth: "09/25",
+      dateofDeathDateMonth: "",
+      dateofDeathYear: 2017,
+      marriageDate: "",
+      Notes: [""],
+      BirthCountry: "",
+      BirthState: "",
+      BirthCity: "",
+      nickname: "",
+      Siblings: [
+
+      ],
+      children: [
+        "Damian C Garcia",
+        "David A Garcia"
+      ],
+      childrenId: [],
+      // Father: "  ",
+      // FatherId: ,
+      // MotherId:  ,
+      // Mother: "",
+      SpouseId: 1108,
+      bloodline: "G",
+        Level: 400,
+  },
+{
+      id: 1110,
+      firstName: "Joseph",
+      lastName: "Garcia",
+      middleName: "E",
+      maidenName: "",
+      dateOfBirthYear: 1907,
+      dateofBirthDateMonth: "",
+      dateofDeathDateMonth: "",
+      dateofDeathYear: 1987,
+      marriageDate: "",
+      Notes: [""],
+      BirthCountry: "",
+      BirthState: "",
+      BirthCity: "",
+      nickname: "",
+      Siblings: [
+
+      ],
+      children: [],
+      childrenId: [],
+      Father: "Felipe J Garcia",
+      // FatherId: ,
+      // MotherId:  ,
+      Mother: "Sevenene Martinez",
+      SpouseId: 1111,
+      bloodline: "G",
+        Level: 500,
+  },
+{
+      id: 1111,
+      firstName: "Jessie",
+      lastName: "Garcia",
+      middleName: "",
+      maidenName: "Martinez",
+      dateOfBirthYear: 1912,
+      dateofBirthDateMonth: "",
+      dateofDeathDateMonth: "",
+      dateofDeathYear: 2002,
+      marriageDate: "",
+      Notes: [""],
+      BirthCountry: "",
+      BirthState: "",
+      BirthCity: "",
+      nickname: "",
+      Siblings: [
+      ],
+      children: [],
+      childrenId: [],
+      Father: "Pedro Y Martinez",
+      // FatherId: ,
+      // MotherId:  ,
+      Mother: "Abelina Trujillo",
+      SpouseId: 1110,
+      bloodline: "G",
+        Level: 500,
+  },
+
   // {
   //     id: ,
   //     firstName: "",
@@ -4139,9 +4262,9 @@ export const FamilyHistory = [
   //     Mother: "",
   //     SpouseId: ,
   //     // bloodline:
-  //Level: ,
+        //Level: ,
   // },
-// {
+  // {
   //     id: ,
   //     firstName: "",
   //     lastName: "",
@@ -4170,7 +4293,7 @@ export const FamilyHistory = [
   //     // bloodline:
         //Level: ,
   // },
-// {
+  // {
   //     id: ,
   //     firstName: "",
   //     lastName: "",
@@ -4199,7 +4322,7 @@ export const FamilyHistory = [
   //     // bloodline:
         //Level: ,
   // },
-// {
+  // {
   //     id: ,
   //     firstName: "",
   //     lastName: "",

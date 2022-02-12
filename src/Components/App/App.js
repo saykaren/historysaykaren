@@ -15,7 +15,6 @@ const App = () => {
       </header>
       <main>
         {secret === usePassword ? (
-          // {true ? (
           <HistorySection />
         ) : (
           <div className="cardHolder">
@@ -68,6 +67,15 @@ const App = () => {
           >
             {" "}
             Statue of Liberty Ellis Island Foundation Inc.
+          </a><br/>
+          <a
+            href="https://www.dfa.ie/citizenship/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="historyLink"
+          >
+            {" "}
+            Irish Citizenship Process - Grandparent born in Ireland
           </a>
         </section>
       </main>

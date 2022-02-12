@@ -17,7 +17,6 @@ const HistorySection = () => {
 
   const updateModal = (newId) => {
     setModalData(newId);
-    // modal ? window.scrollTo(0,0) :  myRef.current.scrollIntoView();
     setModal(true);
   };
 
@@ -37,37 +36,10 @@ const HistorySection = () => {
         type="text"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.currentTarget.value.toLowerCase())}
-        placeholder="Search History by First Name"
+        placeholder="First or Last Name"
         id="inputHistorySearch"
         className="input"
       />
-      {/* <input
-        type="number"
-        value={familyGenerationLevel}
-        onChange={(e) =>
-          setFamilyGenerationLevel(parseInt(e.currentTarget.value))
-        }
-        placeholder="Search History by First Name"
-        id="inputHistorySearch"
-        className="input"
-      /> */}
-      {/* <select
-        id="levelGeneration"
-        name="levelGeneration"
-        value={familyGenerationLevel}
-        onChange={(e) =>
-          setFamilyGenerationLevel(parseInt(e.currentTarget.value))
-        }
-      >
-        <option value="400">Grandparents</option>
-        <option value="500">Great Grandparents</option>
-        <option value="600">Great Great Grandparents</option>
-        <option value="700">Great3 Grandparents</option>
-        <option value="800">Great4 Grandparents</option>
-        <option value="900">Great5 Grandparents</option>
-        <option value="1000">Great6 Grandparents</option>
-      </select> */}
-
       {familyData &&
         levelArray.map((level, levelIndex) => (
           <HistoryCard
