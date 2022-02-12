@@ -5,8 +5,6 @@ const HistoryCard = ({
   familyData,
   generationLevel,
   searchTerm,
-  setModalData,
-  setModal,
   updateModal,
 }) => {
   return (

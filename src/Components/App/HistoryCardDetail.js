@@ -173,7 +173,7 @@ const HistoryCardDetail = ({
             </details>
           </div>
         )}
-        {person.Notes && person.Notes.length >= 1 && (
+        {person.Notes && person.Notes[0] && person.Notes[0].length >= 1 && (
           <div className="historyDetailSection">
             <details>
               <summary>Notes</summary>
