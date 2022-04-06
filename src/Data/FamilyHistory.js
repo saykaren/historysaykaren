@@ -560,15 +560,15 @@ export const FamilyHistory = [
     id: 1017,
     firstName: "Joseph",
     lastName: "Ryan",
-    middleName: "",
+    middleName: "J",
     maidenName: "",
-    // dateOfBirthYear: ,
-    // dateofBirthDateMonth: "",
-    // dateofDeathDateMonth: "",
-    // dateofDeathYear:
+    dateOfBirthYear: 1888,
+    dateofBirthDateMonth: "09",
+    dateofDeathDateMonth: "4/25",
+    dateofDeathYear: 1950,
     marriageDate: "1923 #2361",
     Notes: [
-      "Possibly Jospeh C Ryan that died April 1935 -- to be determined"
+      
     ],
     BirthCountry: "",
     BirthState: "",
