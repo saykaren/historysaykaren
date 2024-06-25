@@ -5,7 +5,7 @@ import Modal from "./Modal";
 
 const HistorySection = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [familyData, setFamilyData] = useState(FamilyHistory);
+  const familyData = FamilyHistory;
   const [modal, setModal] = useState(false);
   const [modalData, setModalData] = useState(1061);
   const levelArray = [
